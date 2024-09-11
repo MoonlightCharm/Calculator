@@ -1,0 +1,68 @@
+/*----------------------------------------------------------------------------------*/
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    background-color: #222222;
+    border: 1px solid #222222;
+    border-radius: 6px;
+    padding: 4px 2px 4px 4px;
+}
+
+.operators-button {
+    background-color: #636363;
+    color: white;
+    border: 1px solid #636363;
+    border-radius: 6px;
+    width: 80px;
+    height: 40px;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.numpad-button {
+    background-color: #3b3b3b;
+    color: white;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    width: 80px;
+    height: 40px;
+    margin: 2px 0px;
+    font-size: 16px;
+}
+
+.numpad-button.equals {
+    background-color: #0096FF;
+    color: black;
+}
+
+.numpad-button.delete {
+    background-color: #FFAC1C;
+    color: black;
+}
+
+.numpad-operator-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    height: 50px;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 2px 6px;
+}
